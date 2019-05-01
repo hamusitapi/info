@@ -1,0 +1,19 @@
+@media screen and (min-width: 970px){
+    header,section,footer{
+        width: 970px!important;
+        border: 1px solid rgb(152, 152, 152);
+        background-color:rgba(255, 255, 255, 0.83);
+    }
+    header{
+        height: 200px;
+    }
+    section{
+        
+    }
+    footer{
+
+    }
+    #logo{
+        
+    }
+}
