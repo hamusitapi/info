@@ -1,4 +1,26 @@
-@media screen and (min-width: 970px){
+@media screen and (max-width: 790px){
+    header,section,footer{
+        border: 1px solid rgb(152, 152, 152);
+        background-color:rgba(255, 255, 255, 0.83);
+    }
+    header{
+        height: 200px;
+    }
+    .sites_img{
+        display: none;
+    }
+}
+@media screen and (min-width: 790px){
+    header,section,footer{
+        width: 770px!important;
+        border: 1px solid rgb(152, 152, 152);
+        background-color:rgba(255, 255, 255, 0.83);
+    }
+    header{
+        height: 200px;
+    
+}
+@media screen and (min-width: 990px){
     header,section,footer{
         width: 970px!important;
         border: 1px solid rgb(152, 152, 152);
@@ -7,13 +29,37 @@
     header{
         height: 200px;
     }
-    section{
-        
-    }
-    footer{
-
-    }
-    #logo{
-        
-    }
 }
+@media screen and (min-width: 1190px){
+    header,section,footer{
+        width: 1170px!important;
+        border: 1px solid rgb(152, 152, 152);
+        background-color:rgba(255, 255, 255, 0.83);
+    }
+    header{
+        height: 200px;
+    }
+
+}
+
+.sites{
+    height:250px;
+    cursor: pointer;
+}
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width:8px;
+    }
+    /* 滚动槽 */
+    ::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+    border-radius:6px;
+    }
+    /* 滚动条滑块 */
+    ::-webkit-scrollbar-thumb {
+    border-radius:8px;
+    background:rgba(0,0,0,0.3);
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+    background:rgba(0,0,0,0.2);}
