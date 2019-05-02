@@ -3,9 +3,6 @@
         border: 1px solid rgb(152, 152, 152);
         background-color:rgba(255, 255, 255, 0.83);
     }
-    header{
-        height: 200px;
-    }
     .sites_img{
         display: none;
     }
@@ -16,8 +13,6 @@
         border: 1px solid rgb(152, 152, 152);
         background-color:rgba(255, 255, 255, 0.83);
     }
-    header{
-        height: 200px;
     
 }
 @media screen and (min-width: 990px){
@@ -26,9 +21,6 @@
         border: 1px solid rgb(152, 152, 152);
         background-color:rgba(255, 255, 255, 0.83);
     }
-    header{
-        height: 200px;
-    }
 }
 @media screen and (min-width: 1190px){
     header,section,footer{
@@ -36,10 +28,6 @@
         border: 1px solid rgb(152, 152, 152);
         background-color:rgba(255, 255, 255, 0.83);
     }
-    header{
-        height: 200px;
-    }
-
 }
 #logo{
     transition: 1.2s;
@@ -57,7 +45,7 @@
     -ms-transform: rotate(360deg);
 }
 .sites{
-    height:250px;
+    
     cursor: pointer;
 }
 /* 设置滚动条的样式 */
